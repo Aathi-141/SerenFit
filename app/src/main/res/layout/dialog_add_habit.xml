@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/cardBackground">
+
+    <EditText
+        android:id="@+id/etHabitName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter habit name"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/textSecondary"
+        android:backgroundTint="@color/purpleLight"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etHabitTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter time (e.g., Morning)"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/textSecondary"
+        android:backgroundTint="@color/purpleLight"
+        android:padding="16dp" />
+
+</LinearLayout>

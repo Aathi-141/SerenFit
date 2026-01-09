@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Top Bar with Back Button and Title -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp">
+
+            <!-- Back Button -->
+
+            <!-- Hydration Title (Center) -->
+            <TextView
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="←"
+                android:textColor="@color/textPrimary"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hydration Reminders"
+                android:textColor="@color/textPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <!-- Water Drop Emoji -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💧"
+            android:textSize="64sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Set Your Hydration Goal -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Your Hydration Goal"
+            android:textColor="@color/textPrimary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Description Text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose intervals to receive water intake reminders via notifications. Stay hydrated and feel amazing! 💫"
+            android:textColor="@color/textSecondary"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:lineSpacingExtra="4sp"
+            android:layout_marginBottom="40dp" />
+
+        <!-- Reminder Frequency Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reminder Frequency"
+            android:textColor="@color/textPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Frequency Options -->
+        <RadioGroup
+            android:id="@+id/radioGroupFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp">
+
+            <!-- Every 30 Minutes -->
+            <RadioButton
+                android:id="@+id/radio30min"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/radio_button_background"
+                android:button="@null"
+                android:drawablePadding="16dp"
+                android:padding="20dp"
+                android:text="Every 30 minutes\nPerfect for maximum hydration ⚡"
+                android:textColor="@color/textPrimary"
+                android:textSize="16sp" />
+
+            <!-- Every 1 Hour -->
+            <RadioButton
+                android:id="@+id/radio1hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/radio_button_background"
+                android:button="@null"
+                android:drawablePadding="16dp"
+                android:padding="20dp"
+                android:text="Every 1 hour\nGreat for consistent hydration 💪"
+                android:textColor="@color/textPrimary"
+                android:textSize="16sp" />
+
+            <!-- Every 2 Hours -->
+            <RadioButton
+                android:id="@+id/radio2hours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/radio_button_background"
+                android:button="@null"
+                android:drawablePadding="16dp"
+                android:padding="20dp"
+                android:text="Every 2 hours\nGood for busy schedules 📊"
+                android:textColor="@color/textPrimary"
+                android:textSize="16sp" />
+
+            <!-- Every 3 Hours -->
+            <RadioButton
+                android:id="@+id/radio3hours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/radio_button_background"
+                android:button="@null"
+                android:drawablePadding="16dp"
+                android:padding="20dp"
+                android:text="Every 3 hours\nLight reminder schedule 🌿"
+                android:textColor="@color/textPrimary"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <!-- Save Settings Button -->
+        <TextView
+            android:id="@+id/btnSaveSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/save_button_background"
+            android:text="💧 Save Reminder Settings"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingVertical="20dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</ScrollView>

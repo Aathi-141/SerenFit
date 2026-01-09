@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">SerenFit</string>
+    <string name="app_slogan">Serenity in every step</string>
+    <string name="app_logo">SerenFit Logo</string>
+
+    <!-- Habit Tracker Strings -->
+    <string name="habits_title">Habits</string>
+    <string name="today">Today</string>
+    <string name="drink_water">Drink Water</string>
+    <string name="meditate">Meditate</string>
+    <string name="exercise">Exercise</string>
+    <string name="journal">Journal</string>
+    <string name="time_morning">Morning</string>
+    <string name="time_afternoon">Afternoon</string>
+    <string name="time_evening">Evening</string>
+    <string name="habit">Habit</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_habits">Habits</string>
+    <string name="nav_mood">Mood</string>
+    <string name="nav_hydration">Hydration</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Completion Messages -->
+    <string name="habit_completed">%s completed! ✅</string>
+
+    <!-- Fragment Titles -->
+    <string name="title_mood_journal">Mood Journal</string>
+    <string name="title_hydration_reminder">Hydration Reminder</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- Edit Habits Strings -->
+    <string name="edit_habits">Edit Habits</string>
+    <string name="add_new_habit">Add New Habit</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+    <string name="back_arrow">←</string>
+    <string name="edit_icon">✏️</string>
+    <string name="delete_icon">🗑️</string>
+    <string name="padding_small">8</string>
+    <string name="padding_medium">12</string>
+    <string name="padding_large">16</string>
+
+    <!-- Mood Journal Strings -->
+    <string name="mood_journal">Mood Journal</string>
+    <string name="how_are_you_feeling">How are you feeling today?</string>
+    <string name="log_mood">Log Mood</string>
+    <string name="past_entries">Past Entries</string>
+
+    <!-- Water reminder Strings -->
+    <string name="hydration_reminders">Hydration Reminders</string>
+    <string name="set_hydration_goal">Set Your Hydration Goal</string>
+    <string name="reminder_frequency">Reminder Frequency</string>
+    <string name="save_reminder_settings">💧 Save Reminder Settings</string>
+
+    <!-- Settings Page Strings -->
+    <string name="settings_title">⚙️ Settings</string>
+    <string name="serenfit_title">SerenFit</string>
+    <string name="notifications_section">🔔 Notifications</string>
+    <string name="appearance_section">🎨 Appearance</string>
+    <string name="app_preferences_section">⚡ App Preferences</string>
+    <string name="data_management_section">💾 Data Management</string>
+    <string name="support_about_section">❤️ Support &amp; About</string>
+    <string name="later">Later</string>
+
+    <!-- Notification Settings -->
+    <string name="push_notifications">Push Notifications</string>
+    <string name="daily_reminders">Daily Reminders</string>
+    <string name="vibration">Vibration</string>
+    <string name="dark_mode">Dark Mode</string>
+
+    <!-- App Preferences -->
+    <string name="habit_reminder_time">⏰ Habit Reminder Time</string>
+    <string name="mood_tracking_settings">😊 Mood Tracking Settings</string>
+
+    <!-- Data Management -->
+    <string name="clear_all_data">🗑️ Clear All Data</string>
+    <string name="export_data">📤 Export Data</string>
+
+    <!-- Support & About -->
+    <string name="contact_support">📧 Contact Support</string>
+    <string name="rate_our_app">⭐ Rate Our App</string>
+    <string name="share_with_friends">📱 Share with Friends</string>
+    <string name="about_app">ℹ️ About App</string>
+
+    <!-- Dialog Messages -->
+    <string name="clear_data_title">🗑️ Clear All Data</string>
+    <string name="clear_data_message">This will delete all your habits, mood entries, and progress.
+        This action cannot be undone!</string>
+    <string name="clear_everything">Clear Everything</string>
+    <string name="clear_habits_only">Clear Habits Only</string>
+    <string name="export_data_title">📤 Export Data</string>
+    <string name="export_data_message">Export your wellness data as a beautiful PDF report
+        with charts and insights!</string>
+    <string name="generate_report">Generate Report</string>
+    <string name="habit_reminder_title">⏰ Habit Reminder Time</string>
+    <string name="mood_settings_title">😊 Mood Tracking Settings</string>
+    <string name="mood_settings_message">Customize how you track your mood:\n\n• Daily mood reminders\n•
+        Mood insights and trends\n• Export mood history</string>
+    <string name="enable_features">Enable Features</string>
+    <string name="about_app_title">🌟 About SerenFit</string>
+    <string name="about_app_message">SerenFit v1.0\n\nYour personal companion for
+        building healthy habits and tracking your wellness journey! 🌈\n\nFeatures:\n•
+        📊 Habit tracking with progress\n• 😊 Mood journal with emojis\n• 💧 Smart hydration reminders\n•
+        🎯 Achievement system\n• 🌙 Dark mode support\n\nBuilt with ❤️ for your wellness journey!</string>
+    <string name="awesome">Awesome! 🎉</string>
+
+    <!-- Toast Messages -->
+    <string name="notifications_enabled">🔔 Notifications enabled</string>
+    <string name="notifications_disabled">🔕 Notifications disabled</string>
+    <string name="dark_mode_enabled">🌙 Dark mode enabled</string>
+    <string name="light_mode_enabled">☀️ Light mode enabled</string>
+    <string name="daily_reminders_enabled">📅 Daily reminders enabled</string>
+    <string name="daily_reminders_disabled">📅 Daily reminders disabled</string>
+    <string name="vibration_enabled">📳 Vibration enabled</string>
+    <string name="vibration_disabled">🔇 Vibration disabled</string>
+    <string name="all_data_cleared">All data cleared successfully 🔄</string>
+    <string name="habits_cleared">Habits cleared successfully ✅</string>
+    <string name="generating_report">📊 Generating your wellness report…</string>
+    <string name="mood_features_activated">Mood features activated! 🌈</string>
+
+    <!-- Reminder Times -->
+    <string name="time_7am">7:00 AM</string>
+    <string name="time_8am">8:00 AM</string>
+    <string name="time_9am">9:00 AM</string>
+    <string name="time_10am">10:00 AM</string>
+    <string name="custom_time">Custom Time</string>
+    <string name="habit_reminders_set">Habit reminders set for %s 🕐</string>
+
+    <!-- Email Intent -->
+    <string name="email_subject">Wellness App Support</string>
+    <string name="email_body">Hello Wellness Team,\n\nI need help with:</string>
+    <string name="contact_support_chooser">📧 Contact Support</string>
+
+    <!-- Share Intent -->
+    <string name="share_subject">Check out this amazing Wellness App!</string>
+    <string name="share_text">🌟 I\'m using this fantastic wellness app to track my habits and mood!
+        Download it now</string>
+    <string name="share_chooser">📱 Share Wellness App</string>
+</resources>

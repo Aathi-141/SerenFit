@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Top Bar with Back Button and Title -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <!-- Back Button -->
+            <TextView
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/back_arrow"
+                android:textColor="@color/textPrimary"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <!-- Mood Journal Title (Center) -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mood_journal"
+                android:textColor="@color/textPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <!-- Today's Mood Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="@color/cardBackground"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Question -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/how_are_you_feeling"
+                    android:textColor="@color/textPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:paddingBottom="16dp" />
+
+                <!-- Mood Emojis Row 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:paddingBottom="16dp">
+
+                    <!-- Happy -->
+                    <TextView
+                        android:id="@+id/btnHappy"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="😊"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:background="@drawable/mood_selector"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_margin="8dp" />
+
+                    <!-- Content -->
+                    <TextView
+                        android:id="@+id/btnContent"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="😌"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:background="@drawable/mood_selector"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_margin="8dp" />
+
+                    <!-- Neutral -->
+                    <TextView
+                        android:id="@+id/btnNeutral"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="😐"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:background="@drawable/mood_selector"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_margin="8dp" />
+
+                </LinearLayout>
+
+                <!-- Mood Emojis Row 2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:paddingBottom="20dp">
+
+                    <!-- Sad -->
+                    <TextView
+                        android:id="@+id/btnSad"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="😔"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:background="@drawable/mood_selector"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_margin="8dp" />
+
+                    <!-- Angry -->
+                    <TextView
+                        android:id="@+id/btnAngry"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="😠"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:background="@drawable/mood_selector"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_margin="8dp" />
+
+                    <!-- Tired -->
+                    <TextView
+                        android:id="@+id/btnTired"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="😴"
+                        android:textSize="24sp"
+                        android:gravity="center"
+                        android:background="@drawable/mood_selector"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_margin="8dp" />
+
+                </LinearLayout>
+
+                <!-- Log Mood Button -->
+                <TextView
+                    android:id="@+id/btnLogMood"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purpleLight"
+                    android:text="@string/log_mood"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:paddingVertical="16dp"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Past Entries Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/past_entries"
+            android:textColor="@color/textPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <!-- Past Entries Container -->
+        <LinearLayout
+            android:id="@+id/pastEntriesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <!-- View Trends Button -->
+        <TextView
+            android:id="@+id/btnViewTrends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📈 View Mood Trends"
+            android:textColor="@color/purpleLight"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingVertical="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

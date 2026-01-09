@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Simple star pattern or remove if not needed -->
+    <path
+        android:fillColor="@color/purpleLight"
+        android:pathData="M100,20 L110,60 L150,60 L115,85 L125,125 L100,100 L75,125 L85,85 L50,60 L90,60 Z" />
+
+</vector>

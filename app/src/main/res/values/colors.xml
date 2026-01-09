@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#2C1F3D</color>
+    <color name="colorPrimaryDark">#1E142B</color>
+    <color name="colorAccent">#B39DDB</color>
+
+    <!-- Secondary Colors -->
+    <color name="purpleLight">#6A4C93</color>
+    <color name="purpleSoft">#8E6FC0</color>
+    <color name="lavender">#C5B4E3</color>
+    <color name="pinkish">#E6CCE6</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#D1C4E9</color>
+
+    <!-- Special Elements -->
+    <color name="buttonBackground">#7E57C2</color>
+    <color name="progressBar">#B388FF</color>
+    <color name="cardBackground">#3E2A57</color>
+
+    <!-- Extras -->
+    <color name="backgroundGradientStart">#1E142B</color>
+    <color name="backgroundGradientEnd">#2C1F3D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#1E142B</color>
+    <color name="star_color">#D1C4E9</color>
+    <color name="text_highlight">#E6CCE6</color>
+</resources>
